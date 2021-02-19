@@ -1,0 +1,2434 @@
+body{
+    box-sizing: border-box;
+}
+
+.logo:hover{
+    text-decoration: none;
+}
+
+.orangebutton:hover{
+    text-decoration: none;
+}
+
+.navbar-nav .nav-item .nav-link{
+    color: rgb(36, 36, 36);
+    font-size: 13px;
+}
+
+#academics .nav-link{
+    color:  rgb(36, 36, 36);
+    font-size: 13px;
+}
+
+#academics .nav-link:hover{
+    color: white;
+    background-color: rgb(45, 47, 173);
+    padding: 5px 0px;
+    border-radius: 5px;
+}
+
+.navbar-nav .nav-item .nav-link:hover{
+    color: white;
+    background-color: rgb(45, 47, 173);
+    padding: 5px 0px;
+    border-radius: 5px;
+}
+
+.dropdown-menu-right {
+    position: absolute;
+    left: 160px;
+    top: 200px;
+    display: none;
+}
+
+.navbar-nav .dropdown-menu{
+    margin-top: 0px;
+}
+
+.navbar-nav .dropdown-menu .dropdown-item{
+    color: white;
+    font-size: 13px;
+    text-align: center;
+    padding: 15px 0;
+    font-weight: 500;
+    position: relative;
+}
+
+.navbar-nav .dropdown-menu .dropdown-item:hover{
+    background-color: rgb(45, 47, 173);
+}
+
+.navbar-nav .dropdown-menu .dropdown-item::after{
+    background-color: rgb(45, 47, 173);
+    bottom: 0;
+    content: '';
+    display: block;
+    height: 1.5px;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,0);
+    width: 90px;
+}
+
+#activities::after{
+    background-color: transparent;
+}
+
+#activities:focus{
+    background-color:  rgb(45, 47, 173);
+}
+
+#teacheractivities::after{
+    background-color: transparent;
+}
+
+.container .navbar-nav li.active > a {
+    color: white !important;
+    background-color: rgb(45, 47, 173);
+    padding: 5px 0px;
+    border-radius: 5px;
+}
+
+#academics > a:focus{
+    color: white;
+    background-color: rgb(45, 47, 173);
+    padding: 5px 0px;
+    border-radius: 5px;
+}
+
+.homebanner{
+    height: 530px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#email:focus{
+    box-shadow: none;
+}
+
+#firstname:focus{
+    box-shadow: none;
+}
+
+#lastname:focus{
+    box-shadow: none;
+}
+
+/*404 page*/
+.errorpage{
+    height: 500px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+    z-index: 0;
+}
+
+.errorbutton{
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background: none;
+    cursor: pointer;
+    padding: 15px 80px;
+    display: inline-block;
+    margin: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    outline: none;
+    position: relative;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.button-4 {
+    border: 3px solid #fff;
+    border-radius: 50px;
+    color: #fff;
+    overflow: hidden;
+}
+.button-4:active {
+    border-color: whitesmoke;
+    color: whitesmoke;
+}
+.button-4:hover {
+    background: rgba(58, 58, 58, 0.589);
+}
+
+.button-4>.fa {
+    position: absolute;
+    height: 100%;
+    font-size: 125%;
+    line-height: 2.5;
+    color: #fff;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.button-4:active>.fa {
+    color: whitesmoke;
+}
+
+.button-4b>.fa {
+    left: -50%;
+    top: 0;
+}
+.button-4b:hover>.fa {
+    left: 10%;
+}
+
+@media only screen and (max-width: 1210px){
+    /*event page*/
+    .channeldiv{
+        float: left !important;
+        margin-left: 50px !important;
+    }
+
+}
+
+@media only screen and (max-width: 1274px){
+    /*ourschoolpage*/
+    .missioncontent{
+        margin-top: 10px !important;
+    }
+
+    .missionheading{
+        line-height: 60px !important;
+        width: 280px !important;
+    }
+
+    /*academic approach page*/
+    .roboimg{
+        width: 500px !important;
+        margin-top: 10px;
+    }
+}
+
+
+@media only screen and (max-width: 1187px){ 
+    .platformheading{
+        font-size: 25px;
+        margin-left: 20px !important;
+    }
+
+    #carousel-thumbs{
+        width: 600px !important;
+    }
+
+    .carousel-control-next{
+        margin-right: 30px !important;
+    }
+
+    .aboutuscardheading{
+        font-size: 39px !important;
+    }
+
+    .updateform{
+        margin-left: 0px !important;
+    }
+
+    .homemap{
+        margin-right: 70px;
+    }
+
+    .right-footer{
+        width: 450px !important;
+    }
+
+    /*academic approach page*/
+    .roboimg{
+        width: 500px !important;
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 1059px){ 
+    .aboutuscardheading{
+        font-size: 35px !important;
+    }
+
+    .aboutuscardtext{
+        font-size: 17px !important;
+        word-spacing: -1px !important;
+    }
+
+    .right-footer{
+        margin-right: 0px !important;
+    }
+
+    /*academic approach page*/
+    .roboimg{
+        width: 450px !important;
+        margin-top: 40px;
+    }
+
+    /*contact page*/
+    .mapdiv{
+        padding-left: 0px;
+    }
+
+    .addressdiv{
+        padding: 0px;
+        margin-left: 24px !important;
+    }
+
+    .gmaplocation{
+       width: 350px !important;
+    }
+
+    /*event page*/
+    .channeldiv{
+        margin-left: 15px !important;
+        margin-right: 1px !important;
+    }
+}
+
+@media only screen and (max-width: 991px){ 
+    /*event page*/
+    .newsdiv{
+        margin-top: 1550px !important;
+    }
+
+    .channeldiv{
+        margin-left: 40vw !important;
+        margin-top: 750px !important;
+    }
+
+    .newsimage1{
+        margin-left: 55px;
+    }
+
+    .newsimage2{
+        margin-left: 55px;
+        margin-top: 10px;
+    }
+
+    .newsheading{
+        top: 1680px !important;
+        left: 38vw !important;
+    }
+
+    .newsborderdiv{
+        height: 720px !important;
+        width: 500px !important;
+    }
+
+    #eventfooter{
+        margin-top: 200px !important;
+    }
+
+    .eventborderdiv{
+        width: 500px !important;
+        height: 1300px !important;
+    }
+
+    .eventinnerdiv{
+        width: 500px !important;
+        height: 1150px !important;
+    }
+
+    .eventheading{
+        left: 36vw !important;
+    }
+
+    .eventrow{
+        padding-left: 0px !important;
+        width: 495px !important;
+    }
+
+    .eventdate{
+        margin-left: 98px;
+    }
+
+    .eventsdiv{
+        margin-left: 24.5vw !important;
+    }
+
+}
+
+@media only screen and (max-width: 954px){ 
+    .platformheading{
+        font-size: 22px;
+        margin-left: 20px !important;
+    }
+
+    #carousel-thumbs{
+        width: 580px !important;
+    }
+
+    .carousel-control-next{
+        margin-right: 30px !important;
+    }
+
+    #updateheading{
+        margin-left: 0px !important;
+        font-size: 19px;
+        width: 150px !important;
+    }
+
+    .homemap{
+       margin-right: 90px !important;
+    }
+
+    /* our school image */
+    .ourschoolborderdiv{
+        width: 620px !important;
+        height: 400px !important;
+    }
+
+    .ourschoolimg{
+        width: 570px;
+    }
+
+    .ourschoolheading{
+        top: 400px !important;
+        left: 4vw !important;
+    }
+
+    .ourschooldiv{
+        height: 450px !important;
+    }
+
+    /*academic approach page*/
+    .roboimg{
+        width: 400px !important;
+        margin-top: 60px;
+    }
+
+    /*infrastructure page*/
+    .infaheading{
+        top: 520px !important;
+    }
+
+    .labheading{
+        top: 930px !important;
+    }
+
+    .pgheading{
+        top: 1300px !important;
+        left: 110px !important;
+    }
+
+    .caheading{
+        top: 1585px !important;
+    }
+
+    .crheading{
+        top: 2010px !important;
+        left: 120px !important;
+    }
+
+    /*admission page*/
+    .admissionimg{
+        width: 600px !important;
+        height: 400px !important;
+    }
+
+    .admissionborderdiv{
+        width: 640px !important;
+        height: 430px !important;
+    }
+
+    .admissionmain{
+        height: 490px !important;
+    }
+
+    .admissionheadingfont{
+        width: 400px !important;
+    }
+
+    /*contact page */
+    .contactimg{
+        width: 620px !important;
+    }
+
+    .contactborderdiv{
+        width: 660px !important;
+        height: 410px !important;
+    }
+
+    .contactheading{
+        top: 430px !important;
+    }
+
+    .contactdiv{
+        height: 470px !important;
+    }
+}
+
+@media only screen and (max-width: 924px){ 
+    .platformheading{
+        font-size: 40px;
+        margin-left: 20px !important;
+        width: 80vw !important;
+        text-align: center;
+    }
+
+    #carousel-thumbs{
+        width: 85vw !important;
+    }
+
+    .carousel-control-next{
+        margin-right: 7vw !important;
+    }
+
+    .platformdiv{
+        height: 370px !important;
+    }
+
+    #carousel-thumbs{
+        margin-top: 20px !important;
+    }
+
+    .footercontact{
+        padding-left: 0px !important;
+    }
+
+    .right-footer{
+        width: 400px !important;
+    }
+
+    /*ourschoolpage*/
+    .missioncontent{
+        margin-top: 10px !important;
+    } 
+
+    .missioncontentpara{
+        line-height: 22px !important;
+    }
+
+    .missionheading{
+        line-height: 40px !important;
+        width: 200px !important;
+        font-size: 3.5vw !important;
+    }
+
+    /*academic approach page*/
+    .roboimg{
+        width: 400px !important;
+        margin-top: 40px;
+    }
+}
+
+@media only screen and (max-width: 903px){
+    /*branch page*/
+    .branchimg{
+        width: 450px;
+        height: 320px !important;
+    }
+
+    .branchborderdiv{
+        width: 500px !important;
+        height: 350px !important;
+    }
+
+    #branchheading{
+        top: 370px !important;
+    }
+
+    .branchdiv{
+        height: 370px !important;
+    }
+
+    .branchesname{
+        font-size: 13.5px !important;
+    }
+} 
+
+@media only screen and (max-width: 864px){ 
+    .aboutuscardheading{
+        font-size: 30px !important;
+    }
+
+    .aboutuscardtext{
+        font-size: 15px !important;
+    }
+
+    .purplediv{
+        width: 270px !important;
+    }
+
+    .purpledivheading{
+        font-size: 22px !important;
+    }
+
+    .purpledivtitle{
+        font-size: 15px !important;
+        font-weight: bold;
+    }
+
+    .updateform{
+        margin-left: 20px !important;
+    }
+
+    #updateheading{
+        font-size: 17px !important;
+        width: 140px !important;
+    }
+
+    .homemap{
+        margin-top: 30px !important;
+        margin-right: 130px !important;
+    }
+
+    .greendiv{
+        height: 930px !important;
+    }
+
+    #firstname, #lastname, #email{
+        width: 85% !important;
+    }
+
+    /*our school page*/
+    .missionimg{
+        width: 420px !important;
+    }
+
+    .missioncontent{
+        margin-top: 0px !important;
+        margin-left: 25px;
+    }
+
+    /*infrastructure page*/
+    .infamaindiv{
+        width: 500px;
+    }
+    
+    .infamainborderdiv{
+        width: 550px !important;
+        height: 370px !important;
+    }
+
+    .infaheading{
+        top: 480px !important;
+        left: 100px !important;
+    }
+
+    .infarightdiv{
+        width: 380px !important;
+        height: 250px !important;
+    }
+
+    .infarightborderdiv{
+        width: 420px !important;
+        height: 280px !important;
+    }
+
+    .infaleftdiv{
+        width: 380px !important;
+        height: 250px !important;
+    }
+
+    .infaleftborderdiv{
+        width: 420px !important;
+        height: 280px !important;
+    }
+
+    .labheading{
+        top: 920px !important;
+        left: 230px !important;
+    }
+
+    .pgheading{
+        top: 1270px !important;
+        left: 260px !important;
+    }
+
+    .caheading{
+        top: 1585px !important;
+        left: 230px !important;
+    }
+
+    .crheading{
+        top: 2000px !important;
+        left: 260px !important;
+    }
+
+    /*student activity page*/
+    #saheading{
+        top: 400px !important;
+    }
+
+    .samain{
+        height: 400px !important;
+    }
+
+    /*event page*/
+    .eventsdiv{
+        margin-left: 20vw !important;
+    }
+}
+
+
+@media only screen and (max-width: 787px){ 
+    /*branch page*/
+    .branchesname{
+        font-size: 13px !important;
+    }
+
+    /*admission page*/
+    .admissionimg{
+        width: 500px !important;
+        height: 350px !important;
+    }
+
+    .admissionborderdiv{
+        width: 550px !important;
+        height: 390px !important;
+    }
+
+    .admissionmain{
+        height: 460px !important;
+    }
+
+    .admissionheadingfont{
+        width: 370px !important;
+    }
+
+    /*event page*/
+    .eventsdiv{
+        margin-left: 15vw !important;
+    }
+}
+
+@media only screen and (max-width: 767px){ 
+    #carousel-selector-0{
+        margin-left: 18vw !important;
+    }
+
+    #carousel-selector-1{
+        margin-left: 18vw !important;
+    }
+
+    #carousel-selector-2{
+        margin-left: 18vw !important;
+    }
+
+    .carousel-control-prev{
+        margin-left: 7vw !important;
+    }
+
+    .platformdiv{
+        height: 630px !important;
+    }
+
+    .platformheading{
+        margin-top: 50px !important;
+    }
+
+    .carousel-control-next{
+        margin-top: 200px !important;
+    }
+
+    .carousel-control-prev{
+        margin-top: 200px !important;
+    }
+
+    #updateheading{
+        font-size: 20px;
+        margin-left: 25px !important;
+        width: 200px !important;
+        line-height: 35px !important;
+    }
+
+    .homemap{
+        margin-left: 140px;
+    }
+
+    /*academic approach page*/
+    .roboimg{
+        width: 350px !important;
+        margin-top: 50px;
+    }
+
+    /*contact page */
+    .contactimg{
+        width: 520px !important;
+    }
+
+    .contactborderdiv{
+        width: 560px !important;
+        height: 340px !important;
+    }
+
+    .contactheading{
+        top: 380px !important;
+    }
+
+    .contactdiv{
+        height: 400px !important;
+    }
+
+    .addressdiv{
+        margin-left: 25vw !important;
+        margin-bottom: 0px !important;
+    }
+
+    .mapdiv{
+        margin-left: 25vw !important;
+    }
+
+    /*branch page*/
+    .branchesname{
+        font-size: 17px !important;
+    }
+
+    #secondrowbranches{
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (max-width: 754px){ 
+    .platformheading{
+        font-size: 35px;
+    }
+
+    /*ourschool page*/
+    .ourschoolcontent{
+        width: 500px !important;
+    }
+
+    .missionimg{
+        width: 350px !important;
+        margin-top: 17px;
+        margin-left: 20px;
+    }
+
+    .missioncontent{
+        margin-top: 0px !important;
+        margin-left: 25px;
+    } 
+
+    .missioncontentpara{
+        font-size: 12.5px;
+    }
+
+    .learnmore{
+        font-size: 12.5px;
+    }
+
+    .missionheading{
+        margin-top: 10px;
+    }
+
+}
+
+@media only screen and (max-width: 710px){
+    /*contact page */
+    .contactimg{
+        width: 420px !important;
+    }
+
+    .contactborderdiv{
+        width: 450px !important;
+        height: 280px !important;
+    }
+
+    .contactheading{
+        top: 330px !important;
+    }
+
+    .contactdiv{
+        height: 350px !important;
+    }
+
+    .addressdiv{
+        margin-left: 25vw !important;
+        margin-bottom: 0px !important;
+    }
+
+    .mapdiv{
+        margin-left: 25vw !important;
+    }
+}
+
+@media only screen and (max-width: 677px){
+    .left-footer{
+        margin-left: 35vw !important;
+    }
+
+    .right-footer{
+        margin-left: 0px !important;
+        margin-right: 12vw !important;
+        margin-top: 15px !important;
+    }
+
+    /* our school image */
+    .ourschoolborderdiv{
+        width: 500px !important;
+        height: 320px !important;
+    }
+
+    .ourschoolimg{
+        width: 460px;
+    }
+
+    .ourschoolheading{
+        top: 370px !important;
+        left: 4vw !important;
+    }
+
+    .ourschooldiv{
+        height: 360px !important;
+    }
+
+    .ourschoolcontent{
+        width: 400px !important;
+    }
+
+    /*academic approach page */
+    .aaheading{
+        top: 320px !important; 
+        width: 320px;
+    }
+
+    .roboimg{
+        width: 320px !important;
+        margin-top: 70px;
+    }
+
+    /*branch page*/
+
+    .branchimg{
+        width: 350px;
+        height: 260px !important;
+    }
+
+    .branchborderdiv{
+        width: 380px !important;
+        height: 290px !important;
+    }
+
+    #branchheading{
+        top: 330px !important;
+    }
+
+    .branchdiv{
+        height: 300px !important;
+    }
+
+    /*admission page*/
+    .admissionimg{
+        width: 400px !important;
+        height: 290px !important;
+    }
+
+    .admissionborderdiv{
+        width: 450px !important;
+        height: 320px !important;
+    }
+
+    .admissionmain{
+        height: 400px !important;
+    }
+
+    .admissionheadingfont{
+        width: 300px !important;
+    }
+
+    .admissionheading{
+        top: 410px !important;
+    }
+
+     /*event page*/
+    .eventsdiv{
+        margin-left: 10vw !important;
+    }
+}
+
+@media only screen and (max-width: 660px){
+    #homeheading{
+        font-size: 40px !important;
+    }
+
+    .homebannercontent{
+        margin-left: 30px !important;
+    }
+
+    .platformheading{
+        font-size: 30px;
+    }
+
+    .aboutuscardheading{
+        font-size: 20px !important;
+    }
+
+    .aboutuscardtext{
+        font-size: 12.5px !important;
+    }
+
+    .purplediv{
+        width: 200px !important;
+        margin-top: 100px !important;
+    }
+
+    .purpledivheading{
+        font-size: 16px !important;
+    }
+
+    .purpledivtitle{
+        font-size: 11px !important;
+        font-weight: bold;
+        line-height: 12px !important;
+    }
+
+    .purpledivdate{
+        font-size: 9px !important;
+    }
+
+    #updateheading{
+        font-size: 17px;
+        margin-left: 1px !important;
+        width: 150px !important;
+        line-height: 35px !important;
+    }
+
+    #firstname, #lastname, #email{
+        width: 80% !important;
+    }
+
+    /*infrastructure page*/
+    .infamaindiv{
+        width: 400px;
+    }
+    
+    .infamainborderdiv{
+        width: 440px !important;
+        height: 300px !important;
+    }
+
+    .infaheading{
+        top: 430px !important;
+        left: 100px !important;
+    }
+
+    .infarightdiv{
+        width: 300px !important;
+        height: 220px !important;
+    }
+
+    .infarightborderdiv{
+        width: 340px !important;
+        height: 250px !important;
+    }
+
+    .infaleftdiv{
+        width: 300px !important;
+        height: 220px !important;
+    }
+
+    .infaleftborderdiv{
+        width: 340px !important;
+        height: 250px !important;
+    }
+
+    .labheading{
+        top: 800px !important;
+        left: 230px !important;
+    }
+
+    .pgheading{
+        top: 1160px !important;
+        left: 140px !important;
+    }
+
+    .caheading{
+        top: 1485px !important;
+        left: 230px !important;
+    }
+
+    .crheading{
+        top: 1880px !important;
+        left: 140px !important;
+    }
+
+    .infamain{
+        height: 400px !important;
+    }
+
+    .crdiv{
+        height: 350px !important;
+    }
+
+     /*student activity page*/
+     #saheading{
+        top: 370px !important;
+    }
+
+    .samain{
+        height: 320px !important;
+    }
+}
+
+@media only screen and (max-width: 616px){
+    /*our school page*/
+    .missionimg{
+        width: 320px !important;
+    }
+    
+    .missioncontent{
+        margin-top: 20px !important;
+    }
+
+    .missioncontentpara{
+        font-size: 12.5px;
+        line-height: 15px !important;
+    }
+
+    .missiondiv{
+        margin-top: 40px !important;
+    }
+
+    /*academic approach page */
+    .roboimg{
+        width: 300px !important;
+        margin-top: 70px;
+    }
+
+    /*student activity page */
+    .infaheadingfont{
+        width: 270px !important;
+    }
+
+    /*contact page */
+    .contactimg{
+        width: 350px !important;
+    }
+
+    .contactborderdiv{
+        width: 380px !important;
+        height: 230px !important;
+    }
+
+    .contactheading{
+        top: 270px !important;
+        left: 24vw !important;
+    }
+
+    .contactdiv{
+        height: 300px !important;
+    }
+
+    .addressdiv{
+        margin-left: 20vw !important;
+        margin-bottom: 0px !important;
+    }
+
+    .mapdiv{
+        margin-left: 20vw !important;
+    }
+
+     /*event page*/
+     .newsdiv{
+        margin-top: 1550px !important;
+    }
+
+    .channeldiv{
+        margin-left: 40vw !important;
+        margin-top: 750px !important;
+    }
+
+    .newsimage1{
+        margin-left: 5px;
+    }
+
+    .newsimage2{
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+
+    .newsheading{
+        top: 1680px !important;
+        left: 38vw !important;
+    }
+
+    .newsborderdiv{
+        height: 720px !important;
+        width: 400px !important;
+    }
+
+    #eventfooter{
+        margin-top: 200px !important;
+    }
+
+    .eventborderdiv{
+        width: 350px !important;
+        height: 1300px !important;
+    }
+
+    .eventinnerdiv{
+        width: 350px !important;
+        height: 1150px !important;
+    }
+
+    .eventheading{
+        left: 30vw !important;
+        top: 200px !important;
+    }
+
+    .eventrow{
+        padding-left: 0px !important;
+        width: 345px !important;
+    }
+
+    .eventdate{
+        margin-left: 23px;
+    }
+
+    .eventsdiv{
+        margin-left: 15vw !important;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    /*error page*/
+    .errorbutton{
+        padding: 15px 50px;
+    }
+
+    #errorheading{
+        font-size: 60px !important;
+    }
+
+    #errormessage{
+        font-size: 20px !important;
+    }
+}
+
+@media only screen and (max-width: 575px){
+     /*our school page*/
+     .missionimg{
+        width: 320px !important;
+        margin-left: 21vw;
+    }
+    
+    .missioncontent{
+        margin-top: 30px !important;
+        margin-left: 21vw;
+        
+    }
+
+    .missioncontentpara{
+        font-size: 16px !important;
+        line-height: 27px !important;
+    }
+
+    .missiondiv{
+        margin-top: 40px !important;
+    }
+
+    /*academic approach page */
+    .roboimg{
+        width: 310px !important;
+        margin-left: 13vw;
+        margin-top: 40px;
+    }
+
+    /*branch page*/
+    .branchesname{
+        font-size: 17px !important;
+    }
+
+    #secondrowbranches{
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (max-width: 564px){
+    .platformheading{
+        font-size: 26px !important;
+    }
+
+    .aboutuscardheading{
+        font-size: 15px !important;
+    }
+
+    .aboutuscardtext{
+        font-size: 11.5px !important;
+    }
+
+    .aboutuscard{
+        margin: 37px !important;
+    }
+
+    /*ourschoolpara*/
+    .ourschoolborderdiv{
+        width: 440px !important;
+        height: 270px !important;
+    }
+
+    .ourschoolimg{
+        width: 400px;
+    }
+
+    .ourschoolheading{
+        top: 345px !important;
+        left: 4vw !important;
+    }
+
+    .ourschooldiv{
+        height: 310px !important;
+    }
+
+    .ourschoolcontent{
+        width: 350px !important;
+    }
+
+    /*academic approach page */
+    .aaheading{
+        top: 310px !important; 
+        width: 260px;
+    }
+
+    .aaheadingfont{
+        width: 260px !important;
+    }
+
+    /*infrastructure page*/
+    .infamaindiv{
+        width: 300px;
+    }
+    
+    .infamainborderdiv{
+        width: 330px !important;
+        height: 230px !important;
+    }
+
+    .infaheading{
+        top: 360px !important;
+        left: 70px !important;
+    }
+
+    .infarightdiv{
+        width: 220px !important;
+        height: 140px !important;
+    }
+
+    .infarightborderdiv{
+        width: 240px !important;
+        height: 160px !important;
+    }
+
+    .infaleftdiv{
+        width: 220px !important;
+        height: 140px !important;
+    }
+
+    .infaleftborderdiv{
+        width: 240px !important;
+        height: 160px !important;
+    }
+
+    .labheading{
+        top: 670px !important;
+        left: 230px !important;
+    }
+
+    .pgheading{
+        top: 920px !important;
+        left: 140px !important;
+    }
+
+    .caheading{
+        top: 1130px !important;
+        left: 230px !important;
+    }
+
+    .crheading{
+        top: 1420px !important;
+        left: 140px !important;
+    }
+
+    .infamain{
+        height: 350px !important;
+    }
+
+    .crdiv{
+        height: 250px !important;
+    }
+
+    .infasubdiv{
+        height: 250px !important;
+    }
+
+    /*student activity page*/
+    #saheading{
+        top: 320px !important;
+        left: 80px !important;
+    }
+
+    .samain{
+        height: 270px !important;
+    }
+
+    /*admission page*/
+    .admissionimg{
+        width: 300px !important;
+        height: 220px !important;
+    }
+
+    .admissionborderdiv{
+        width: 330px !important;
+        height: 250px !important;
+    }
+
+    .admissionmain{
+        height: 320px !important;
+    }
+
+    .admissionheadingfont{
+        width: 200px !important;
+    }
+
+    .admissionheading{
+        top: 360px !important;
+    }
+}
+
+@media only screen and (max-width: 530px){
+    #logo{
+        padding: 5px 8px !important;
+        margin-left: -20px !important;
+    }
+
+    .navhelptext{
+        font-size: 11px !important;
+        font-weight: bold !important;
+        margin-top: 20px !important;
+        margin-right: 12px !important;
+    }
+
+    #navapplybutton{
+        font-size: 12px;
+        padding: 3px 10px !important;
+        margin-right: -10px !important;
+    }
+
+    #homeheading{
+        font-size: 30px !important;
+    }
+
+    .homebannercontent{
+        margin-top: 90px !important;
+    }
+
+    .platformheading{
+        font-size: 22px !important;
+    }
+
+    /*branch page*/
+    .branchimg{
+        width: 300px;
+        height: 210px !important;
+    }
+
+    .branchborderdiv{
+        width: 320px !important;
+        height: 240px !important;
+    }
+
+    #branchheading{
+        top: 320px !important;
+    }
+
+    .branchdiv{
+        height: 250px !important;
+    }
+
+    /*contact page */
+    .contactimg{
+        width: 300px !important;
+    }
+
+    .contactborderdiv{
+        width: 320px !important;
+        height: 200px !important;
+    }
+
+    .contactheading{
+        top: 270px !important;
+        left: 160px !important;
+    }
+
+    .contactdiv{
+        height: 270px !important;
+        margin-right: 17vw !important;
+    }
+
+    .addressdiv{
+        margin-left: 13vw !important;
+        margin-bottom: 0px !important;
+    }
+
+    .mapdiv{
+        margin-left: 15vw !important;
+    }
+}
+
+@media only screen and (max-width: 500px){
+     /*error page*/
+     .errorbutton{
+        padding: 15px 50px;
+        font-size: 12px;
+    }
+
+    #errorheading{
+        font-size: 60px !important;
+    }
+
+    #errormessage{
+        font-size: 18px !important;
+    }
+
+    .button-4>.fa {
+        line-height: 3;
+    }
+}
+
+@media only screen and (max-width: 495px){
+    #learnmorebutton{
+        font-size: 11px;
+        padding: 5px 10px !important;
+    }
+
+    .aboutuscardtext{
+        font-size: 10px !important;
+    }
+
+    #updateheading{
+        font-size: 13px;
+        margin-left: 1px !important;
+        width: 100px !important;
+        line-height: 35px !important;
+    }
+
+    #firstname, #lastname, #email{
+        width: 85% !important;
+        font-size: 10px !important;
+        margin-left: 9px !important;
+        margin-right: 0px !important;
+    }
+
+    .homemap{
+        margin-left: 50px;
+    }
+
+    .left-footer{
+        margin-left: 30vw !important;
+    }
+
+    .right-footer{
+        margin-right: 0px !important;
+        margin-top: 15px !important;
+        width: 360px !important;
+    }
+
+    /*ourschoolpara*/
+    .ourschoolborderdiv{
+        width: 380px !important;
+        height: 250px !important;
+    }
+
+    .ourschoolimg{
+        width: 350px;
+    }
+
+    .ourschoolheading{
+        top: 317px !important;
+        left: 4vw !important;
+    }
+
+    .ourschooldiv{
+        height: 300px !important;
+    }
+
+    .ourschoolcontent{
+        width: 300px !important;
+    }
+
+    .missionimg{
+        width: 290px !important;
+        margin-left: 18vw;
+    }
+    
+    .missioncontent{
+        margin-top: 30px !important;
+        margin-left: 18vw;  
+    }
+
+    .missionheading{
+        font-size: 20px !important;
+        line-height: 24px !important;
+    }
+ 
+}
+
+@media only screen and (max-width: 430px){
+    /*error page*/
+
+    .button-4>.fa {
+        line-height: 3.5;
+    }
+
+    .errorbutton{
+        padding: 15px 45px;
+        font-size: 9px !important;
+    }
+
+    #errorheading{
+        font-size: 50px !important;
+    }
+
+    #errormessage{
+        font-size: 15px !important;
+    }
+
+}
+
+@media only screen and (max-width: 450px){
+    .platformheading{
+        font-size: 20px !important;
+        margin-left: 5px !important;
+    }
+
+    .platformdiv{
+        height: 650px !important;
+    }
+
+    .purplediv{
+        padding: 12px 12px !important;
+        width: 140px !important;
+        margin-top: 120px !important;
+    }
+
+    .aboutuscard{
+        margin: 20px !important;
+        margin-top: 80px !important;
+    }
+
+    .homemap iframe{
+        margin-left: 30px !important;
+        width: 270px;
+        height: 200px;
+    }
+
+    /*academic approach page */
+    .roboimg{
+        width: 270px !important;
+        margin-left: 11vw;
+        margin-top: 40px;
+    }
+
+    /*infrastructure page*/
+    .infamaindiv{
+        width: 250px;
+    }
+    
+    .infamainborderdiv{
+        width: 270px !important;
+        height: 190px !important;
+        margin-left: 80px !important;
+    }
+
+    .infaheading{
+        top: 330px !important;
+        left: 50px !important;
+    }
+
+    .infarightdiv{
+        width: 170px !important;
+        height: 130px !important;
+    }
+
+    .infarightborderdiv{
+        width: 200px !important;
+        height: 160px !important;
+        margin-left: 100px !important;
+    }
+
+    .infaleftdiv{
+        width: 170px !important;
+        height: 130px !important;
+    }
+
+    .infaleftborderdiv{
+        width: 200px !important;
+        height: 160px !important;
+        margin-right: 130px !important;
+    }
+
+    .labheading{
+        top: 620px !important;
+        left: 100px !important;
+    }
+
+    .pgheading{
+        top: 870px !important;
+        left: 110px !important;
+    }
+
+    .caheading{
+        top: 1100px !important;
+        left: 100px !important;
+    }
+
+    .crheading{
+        top: 1360px !important;
+        left: 110px !important;
+    }
+
+    .infamain{
+        height: 300px !important;
+    }
+
+    .crdiv{
+        height: 250px !important;
+    }
+
+    .infasubdiv{
+        height: 250px !important;
+    }
+
+    /*branch page*/
+    .branchimg{
+        width: 250px;
+        height: 180px !important;
+    }
+
+    .branchborderdiv{
+        width: 270px !important;
+        height: 200px !important;
+    }
+
+    #branchheading{
+        top: 260px !important;
+        left: 37vw !important;
+    }
+
+    .branchdiv{
+        height: 200px !important;
+    }
+
+    .branchesname{
+        font-size: 15px !important;
+    }
+
+    /*student activity page*/
+    #saheading{
+        top: 280px !important;
+        left: 150px !important;
+    }
+
+    .samain{
+        height: 220px !important;
+    }
+
+    /*admission page*/
+    .admissionimg{
+        width: 230px !important;
+        height: 170px !important;
+    }
+
+    .admissionborderdiv{
+        width: 260px !important;
+        height: 200px !important;
+        margin-left: 40px !important;
+    }
+
+    .admissionmain{
+        height: 270px !important;
+    }
+
+    .admissionheadingfont{
+        width: 170px !important;
+    }
+
+    .admissionheading{
+        top: 340px !important;
+        left: 50px !important;
+    }
+
+    /*contact page*/
+    .addressdiv{
+        margin-left: 4vw !important;
+        margin-bottom: 0px !important;
+    }
+
+    .mapdiv{
+        margin-left: 4vw !important;
+    }
+
+    /*event page*/
+
+    #eventnewsitem1img{
+        width: 250px !important;
+        height: 180px !important;
+    }
+
+    #eventnewsitem2img{
+        width: 250px !important;
+        height: 180px !important;
+    }
+
+    .newscontentdiv{
+        width: 171px !important;
+        top: 160px !important;
+    }
+
+    #eventnewsitem1text{
+        width: 170px !important;
+    }
+
+    #eventnewsitem2text{
+        width: 170px !important;
+    }
+
+    .newsdiv{
+        margin-top: 1550px !important;
+    }
+
+    .channeldiv{
+        margin-left: 25vw !important;
+        margin-top: 750px !important;
+    }
+
+    .newsimage1{
+        margin-left: 5px;
+    }
+
+    .newsimage2{
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+
+    .newsheading{
+        top: 1730px !important;
+        left: 38vw !important;
+    }
+
+    .newsborderdiv{
+        height: 720px !important;
+        width: 300px !important;
+    }
+
+    #eventfooter{
+        margin-top: 200px !important;
+    }
+
+    .eventborderdiv{
+        width: 350px !important;
+        height: 1300px !important;
+    }
+
+    .eventinnerdiv{
+        width: 350px !important;
+        height: 1150px !important;
+    }
+
+    .eventheading{
+        left: 33vw !important;
+        top: 225px !important;
+    }
+
+    .eventrow{
+        padding-left: 0px !important;
+        width: 345px !important;
+    }
+
+    .eventsdiv{
+        margin-left: 5vw !important;
+    }
+}
+
+@media only screen and (max-width: 398px){
+    .footercontent{
+        font-size: 12px !important;
+    }
+
+    .left-footer{
+        margin-left: 10vw !important;
+    }
+
+    .right-footer{
+        width: 265px !important;
+    }
+
+     /*ourschoolpara*/
+     .ourschoolborderdiv{
+        width: 300px !important;
+        height: 200px !important;
+    }
+
+    .ourschoolimg{
+        width: 280px;
+    }
+
+    .ourschoolheading{
+        top: 325px !important;
+        left: 4vw !important;
+    }
+
+    .ourschooldiv{
+        height: 230px !important;
+    }
+
+    .ourschoolcontent{
+        width: 250px !important;
+    }
+
+    .missionimg{
+        width: 260px !important;
+        margin-left: 15vw;
+    }
+    
+    .missioncontent{
+        margin-top: 30px !important;
+        margin-left: 18vw;  
+    }
+
+     /*academic approach page */
+     .aaheading{
+        top: 230px !important; 
+        left: 35vw !important;
+        width: 150px !important;
+    }
+
+    .aaheadingfont{
+        width: 150px !important;
+    }
+
+    /*student activity*/
+    .infaheadingfont{
+        width: 150px !important;
+    }
+
+    /*contact page */
+    .contactimg{
+        width: 230px !important;
+    }
+
+    .contactborderdiv{
+        width: 250px !important;
+        height: 150px !important;
+    }
+
+    .contactheading{
+        top: 240px !important;
+        left: 110px !important;
+    }
+
+    .contactdiv{
+        height: 230px !important;
+        margin-right: 17vw !important;
+    }
+
+    .addressdiv{
+        margin-left: 5vw !important;
+        margin-bottom: 0px !important;
+    }
+
+    .mapdiv{
+        margin-left: 5vw !important;
+    }
+
+    .ccontenthead{
+        font-size: 19px !important;
+    }
+
+    .ccontent{
+        font-size: 16px !important;
+    }
+
+    .ccontent{
+        width: 235px !important;
+    }
+
+    .gmaplocation{
+        width: 250px !important;
+        height: 200px !important;
+    }
+
+    /*event page*/
+
+    .card-img-top{
+        width: 150px !important;
+        height: 200px !important;
+    }
+
+    #eventnewsitem1img{
+        width: 180px !important;
+        height: 140px !important;
+    }
+
+    #eventnewsitem2img{
+        width: 180px !important;
+        height: 140px !important;
+    }
+
+    .newscontentdiv{
+        width: 100px !important;
+        top: 120px !important;
+    }
+
+    #eventnewsitem1text{
+        width: 100px !important;
+    }
+
+    #eventnewsitem2text{
+        width: 100px !important;
+    }
+
+    .newsdiv{
+        margin-top: 1400px !important;
+    }
+
+    .channeldiv{
+        margin-left: 20vw !important;
+        margin-top: 600px !important;
+    }
+
+    .newsimage1{
+        margin-left: -10px;
+    }
+
+    .newsimage2{
+        margin-left: -10px;
+        margin-top: 10px;
+    }
+
+    .newsheading{
+        top: 1580px !important;
+        left: 38vw !important;
+    }
+
+    .newsborderdiv{
+        height: 720px !important;
+        width: 200px !important;
+    }
+
+    #eventfooter{
+        margin-top: 200px !important;
+    }
+
+    .eventborderdiv{
+        width: 200px !important;
+        height: 1150px !important;
+    }
+
+    .eventinnerdiv{
+        width: 200px !important;
+        height: 1000px !important;
+    }
+
+    .eventheading{
+        left: 35vw !important;
+        top: 225px !important;
+    }
+
+    .eventrow{
+        padding-left: 0px !important;
+        width: 195px !important;
+    }
+
+    .eventdate{
+        margin-left: 13px;
+    }
+
+    .eventsdiv{
+        margin-left: 20vw !important;
+    }
+
+    .ecard-body{
+        width: 150px !important;
+    }
+
+    .esubcardbody{
+        width: 150px !important;
+    }
+
+    .esubcardbodytext{
+        width: 150px !important;
+    }
+}
+
+
+@media only screen and (max-width: 370px){
+    .homemap{
+        margin-left: -10px !important;
+    }
+
+    #firstname, #lastname, #email{
+        width: 80% !important;
+        font-size: 7px !important;
+        margin-left: 9px !important;
+        margin-right: 0px !important;
+        padding: 15px 12px !important;
+    }
+
+    #subscribe{
+        font-size: 8px !important;
+    }
+
+    #updateheading{
+        font-size: 9px;
+        margin-left: 1px !important;
+        width: 80px !important;
+        line-height: 25px !important;
+    }
+
+    .updateform{
+        height: 250px !important;
+    }
+
+    /*academic approach page */
+    .roboimg{
+        width: 240px !important;
+        margin-left: 11vw;
+        margin-top: 20px;
+    }
+
+    /*infrastructure page*/
+    .infamainborderdiv{
+        margin-left: 30px !important;
+    }
+
+    .infaheading{
+        top: 330px !important;
+        left: 30px !important;
+    }
+
+    .infarightborderdiv{
+        margin-left: 40px !important;
+    }
+
+    .infaleftborderdiv{
+        margin-right: 130px !important;
+    }
+
+    .labheading{
+        top: 620px !important;
+        left: 50px !important;
+    }
+
+    .pgheading{
+        top: 870px !important;
+        left: 50px !important;
+    }
+
+    .caheading{
+        top: 1100px !important;
+        left: 50px !important;
+    }
+
+    .crheading{
+        top: 1360px !important;
+        left: 50px !important;
+    }
+
+    /*branch page*/
+    .branchimg{
+        width: 200px;
+        height: 140px !important;
+    }
+
+    .branchborderdiv{
+        width: 220px !important;
+        height: 160px !important;
+    }
+
+    #branchheading{
+        top: 230px !important;
+    }
+
+    .branchdiv{
+        height: 170px !important;
+    }
+
+    .branchesname{
+        font-size: 13px !important;
+    }
+
+     /*error page*/
+
+     .button-4>.fa {
+        line-height: 4.5;
+    }
+
+    .errorbutton{
+        padding: 15px 33px;
+        font-size: 8px !important;
+    }
+}
+
+@media only screen and (max-width: 350px){
+    /*ourschool page*/
+    .ourschoolborderdiv{
+        width: 250px !important;
+        height: 160px !important;
+    }
+
+    .ourschoolimg{
+        width: 230px;
+    }
+
+    .ourschoolheading{
+        top: 300px !important;
+        left: 32vw !important;
+    }
+
+    .ourschooldiv{
+        height: 200px !important;
+    }
+
+    .ourschoolcontent{
+        width: 200px !important;
+    }
+
+    .missionimg{
+        width: 210px !important;
+        margin-left: 15vw;
+    }
+    
+    .missioncontent{
+        margin-top: 30px !important;
+        margin-left: 20vw;  
+    }
+
+    .missionheading{
+        font-size: 14px !important;
+        line-height: 17px !important;
+    }
+
+     /*academic approach page */
+     .aaheading{
+        top: 220px !important; 
+        left: 40vw !important;
+        width: 260px;
+    }
+
+    .roboimg{
+        width: 220px !important;
+        margin-left: 11vw;
+        margin-top: 10px;
+    }
+
+    /*infrastructure page*/
+    .infamaindiv{
+        width: 220px;
+    }
+    
+    .infamainborderdiv{
+        width: 240px !important;
+        height: 170px !important;
+        margin-left: 10px !important;
+    }
+
+    .infaleftborderdiv{
+        margin-right: 10px !important;
+    }
+
+    .caheading{
+        top: 1110px !important;
+        left: 50px !important;
+    }
+
+    .crheading{
+        top: 1370px !important;
+        left: 50px !important;
+    }
+
+    /*branch page*/
+    .branchesname{
+        font-size: 12px !important;
+    }
+
+    .branchpara{
+        font-size: 17px !important;
+    }
+
+    /*student activity page*/
+    #saheading{
+        top: 280px !important;
+        left: 100px !important;
+    }
+    
+    .samain{
+        height: 170px !important;
+    }
+
+    /*admission page*/
+    .admissionimg{
+        width: 190px !important;
+        height: 130px !important;
+    }
+
+    .admissionborderdiv{
+        width: 210px !important;
+        height: 150px !important;
+        margin-left: 40px !important;
+    }
+
+    .admissionmain{
+        height: 200px !important;
+    }
+
+    .admissionheadingfont{
+        width: 170px !important;
+    }
+
+    .admissionheading{
+        top: 340px !important;
+        left: 55px !important;
+    }
+}
+
+@media only screen and (max-width: 310px){
+    .aboutuscardtext{
+        line-height: 11px;
+    }
+
+    .purplediv{
+        margin-top: 150px !important;
+    }
+
+    .homemap iframe{
+        margin-left: 40px !important;
+        width: 220px;
+        height: 150px;
+    }
+
+    #firstname, #lastname, #email{
+        width: 80% !important;
+        font-size: 6px !important;
+        margin-left: 9px !important;
+        margin-right: 0px !important;
+        padding: 3px 7px !important;
+        height: 25px !important;
+    }
+
+    #subscribe{
+        font-size: 6px !important;
+    }
+
+    .updateform{
+        height: 220px !important;
+    }
+
+    .greendiv{
+       height: 800px !important;
+    }
+
+    .roboimg{
+        width: 190px !important;
+        margin-left: 11vw;
+        margin-top: 10px;
+    }
+
+    /*branch page*/
+    .branchimg{
+        width: 160px;
+        height: 120px !important;
+    }
+
+    .branchborderdiv{
+        width: 180px !important;
+        height: 140px !important;
+    }
+
+    #branchheading{
+        top: 220px !important;
+    }
+
+    .branchdiv{
+        height: 140px !important;
+    }
+
+    .branchesname{
+        font-size: 11px !important;
+    }
+
+    /*contact page*/
+    .contactdiv{
+        margin-right: 10vw !important;
+    }
+
+    /*event page*/
+    .eventsdiv{
+        margin-left: 13vw !important;
+    }
+
+    .channeldiv{
+        margin-left: 15vw !important;
+        margin-top: 600px !important;
+    }
+
+    /*error page*/
+    .errorbutton{
+        padding: 10px 25px;
+        font-size: 7px !important;
+    }
+}
+
+@media only screen and (max-width: 300px){
+    #logo{
+        font-size: 12px !important;
+    }
+
+    #homeheading{
+        font-size: 23px !important;
+    }
+
+    #homemessage{
+        font-size: 13px !important;
+    }
+
+    .homebannercontent{
+        margin-top: 120px !important;
+    }
+
+    .purpledivheading{
+        font-size: 14px !important;
+    }
+
+    .purplediv{
+        width: 125px !important;
+    }
+
+    .purpledivdate{
+        font-size: 8px !important;
+    }
+
+    #learnmorebutton{
+        font-size: 10px;
+    }
+
+    #updateheading{
+        font-size: 7px;
+        margin-left: 1px !important;
+        width: 70px !important;
+        line-height: 15px !important;
+    }
+
+    #firstname, #lastname, #email{
+        margin-left: 7px !important;
+        margin-right: 0px !important; 
+    }
+
+    /*branch page*/
+    .branchesname{
+        font-size: 10px !important;
+    }
+
+    /*contact page*/
+    .contactdiv{
+        margin-right: 5vw !important;
+    }
+}
